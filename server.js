@@ -41,7 +41,7 @@ mongoose.connect(dbConfig.url, {
 
 // define a simple route
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to MedicIT application. Take notes quickly. Organize and keep track of all your notes."});
+    res.json({"message": "Welcome to MedicIT application. Our primary goal is to enable the Healthcare Professions to save their time by leveraging latest software technologies"});
 });
 
 
